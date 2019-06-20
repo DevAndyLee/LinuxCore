@@ -22,7 +22,7 @@ namespace LinuxCoreTests
 
             Assert.AreEqual(result.Length, 2);
             Assert.AreEqual(result[0], "wsvalues1");
-            Assert.AreEqual(result[1], "wsvalues1");
+            Assert.AreEqual(result[1], "wsvalues2");
         }
     }
 }
