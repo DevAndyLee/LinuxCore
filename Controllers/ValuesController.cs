@@ -14,7 +14,7 @@ namespace LinuxCore.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "newvalue1", "newvalue2" };
+            return new string[] { "wsvalues1", "wsvalues2" };
         }
 
         // GET api/values/5
