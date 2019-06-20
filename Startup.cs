@@ -42,6 +42,7 @@ namespace LinuxCore
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseWebSockets();
         }
     }
 }
