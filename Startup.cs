@@ -40,9 +40,9 @@ namespace LinuxCore
                 app.UseHsts();
             }
 
+            app.UseWebSockets();
             app.UseHttpsRedirection();
             app.UseMvc();
-            app.UseWebSockets();
         }
     }
 }
