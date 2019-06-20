@@ -23,17 +23,17 @@ namespace LinuxCore.Controllers
         public async Task Get()
         {
             var context = ControllerContext.HttpContext;
-            var isSocketRequest = context.WebSockets.IsWebSocketRequest;
+            //var isSocketRequest = context.WebSockets.IsWebSocketRequest;
 
-            if (isSocketRequest)
-            {
+            //if (isSocketRequest)
+            //{
                 WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync();
                 await ListenToSocket(webSocket);
-            }
-            else
-            {
-                context.Response.StatusCode = 400;
-            }
+            //}
+            //else
+            //{
+            //    context.Response.StatusCode = 400;
+            //}
         }
 
 
