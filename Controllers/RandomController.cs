@@ -60,7 +60,7 @@ namespace LinuxCore.Controllers
 
         private void StreamRandomData(WebSocket socket, CancellationToken token)
         {
-            var dataDate = new DateTime();
+            var dataDate = DateTime.Now;
             var openValue = 100F;
 
             while(!token.IsCancellationRequested)
