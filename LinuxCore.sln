@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinuxCore", "LinuxCore\LinuxCore.csproj", "{780E79D1-F978-4D20-B008-4C51D278A61B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinuxCoreTests", "LinuxCoreTests\LinuxCoreTests.csproj", "{C32E0D49-9EBB-469A-BC62-421A5C0C88F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinuxCoreTests", "LinuxCoreTests\LinuxCoreTests.csproj", "{C68288E5-B5F5-4007-BFDB-13E0DCA5B2AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{780E79D1-F978-4D20-B008-4C51D278A61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{780E79D1-F978-4D20-B008-4C51D278A61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{780E79D1-F978-4D20-B008-4C51D278A61B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C32E0D49-9EBB-469A-BC62-421A5C0C88F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C32E0D49-9EBB-469A-BC62-421A5C0C88F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C32E0D49-9EBB-469A-BC62-421A5C0C88F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C32E0D49-9EBB-469A-BC62-421A5C0C88F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68288E5-B5F5-4007-BFDB-13E0DCA5B2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68288E5-B5F5-4007-BFDB-13E0DCA5B2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68288E5-B5F5-4007-BFDB-13E0DCA5B2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68288E5-B5F5-4007-BFDB-13E0DCA5B2AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

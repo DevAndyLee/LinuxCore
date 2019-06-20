@@ -1,3 +1,4 @@
+﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace LinuxCoreTests
@@ -8,7 +9,7 @@ namespace LinuxCoreTests
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.IsTrue(2 - 1 == 1);
+            Assert.IsTrue(true);
         }
     }
 }
